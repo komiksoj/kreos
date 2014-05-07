@@ -2,4 +2,9 @@ body {
   margin:   0 auto;
   font:     normal Helvetica 20px;
   width:    800px;
+  background: #eee;
+}
+
+p {
+  background: #fff;
 }
