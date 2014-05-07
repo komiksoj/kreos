@@ -7,8 +7,10 @@
 */
 window.onload = function() { 
 	//alert( "welcome")
-	$("#page").on({"click", function() {
-				$("#page").attr(src: "./comic/2.png");
-			}
-		});
+	$("#comic")
+		.on("click", function() {
+			// alert("You clicked it.");
+			$("#page").attr({src: "./comic/2.png"});
+	})
+		
 }
