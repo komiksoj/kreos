@@ -1,16 +1,14 @@
 /*
 	index.js - for index.html
 */
-/*
-	make an id/class to the DOM element that holds the current comic page, 
-	then refer to it in here and change on a mouselistener to a button/link
-*/
-window.onload = function() { 
-	//alert( "welcome")
-	$("#comic")
+window.onload = function() {
+	var page = 1;
+	$("#comic").find("img")
 		.on("click", function() {
-			// alert("You clicked it.");
-			$("#page").attr({src: "./comic/2.png"});
+			page = page + 1;
+			if (page == 3)
+				page = 1;
+			$("img").attr({src: "./comic/" + page + ".png"});
 	})
 		
 }
