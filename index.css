@@ -1,10 +1,21 @@
 body {
-  margin:   0 auto;
-  font:     normal Helvetica 20px;
-  width:    800px;
-  background: #eee;
+					font: normal Helvetica 20px;
+		background: #eee;
 }
 
-p {
-  background: #fff;
+
+#wrapper {
+				margin: 0 auto;
+		  	 width: 800px;
+		/*background: #fff;*/
+}
+#comic {
+				margin: 0 auto;
+		margin-top: 50px;
+				 width: 618px;
+		/*background: #fff;*/
+
+}
+#page {
+		box-shadow: 1px 1px 10px #333;
 }
